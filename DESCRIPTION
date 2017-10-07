@@ -1,4 +1,4 @@
-Package: oandar
+Package: ROandaAPI
 Type: Package
 Title: R wrapper for the [OANDA REST API](http://developer.oanda.com/rest-live/introduction/)
 Version: 0.1.0
@@ -8,6 +8,9 @@ Description: More about what it does (maybe more than one line)
 License: What license is it under?
 LazyData: TRUE
 Imports:
+  timeDate,
+  xts,
+  lubridate,
   httr,
   stringr,
   jsonlite
