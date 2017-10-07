@@ -1,22 +1,14 @@
-# Not yet released
+# ROandaAPI (Clone of oandar)
 
-# oandar
 `oandar` package is a R wrapper for the [OANDA REST API](http://developer.oanda.com/rest-live/introduction/).
-
-# Installation
-
-You can install oandar package from CRAN.
-```
-install.packages("oandar")
-```
-You can also install the package from GitHub.
+`ROandaAPI` is in developement and builds on `oandar` package ...
 
 ```
+# install.packages("oandar")
+install.packages("ROandaAPI")
+
 install.packages("devtools") # if you have not installed "devtools" package
-devtools::install_github("teramonagi/oandar")
+# devtools::install_github("teramonagi/oandar")
+devtools::install_github("teramonagi/OandaAPI")
+
 ```
-The source code for githubinstall package is available on GitHub at
-
-- https://github.com/teramonagi/oandar.
-
-## Examples
