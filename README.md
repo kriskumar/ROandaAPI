@@ -9,6 +9,6 @@ install.packages("ROandaAPI")
 
 install.packages("devtools") # if you have not installed "devtools" package
 # devtools::install_github("teramonagi/oandar")
-devtools::install_github("teramonagi/OandaAPI")
+devtools::install_github("beykuet/OandaAPI")
 
 ```
