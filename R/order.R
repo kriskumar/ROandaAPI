@@ -83,7 +83,7 @@ order_information <- function(oanda, order_id, account_id=NULL)
 #' @param trailing_stop The trailing stop distance in pips, up to one decimal place.
 #'
 #' @export
-modify_order <- function(oanda, order_id, units = NULL, expiry=NULL, price=NULL, lower_bound=NULL, upper_bound=NULL, stop_loss=NULL, take_profit=NULL, trailing_stop=NULL, 'account_id=NULL)
+modify_order <- function(oanda, order_id, units = NULL, expiry=NULL, price=NULL, lower_bound=NULL, upper_bound=NULL, stop_loss=NULL, take_profit=NULL, trailing_stop=NULL, account_id=NULL)
 {
   endpoint <- sprintf("/v1/accounts/%s/orders/%s", account_id_inner(oanda, account_id), order_id)
   body <- list(units=units,
