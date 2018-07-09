@@ -31,7 +31,7 @@ trade_list <- function(oanda, max_id=NULL, count=NULL, instrument=NULL, ids=NULL
 #'   If not specified, the value which OANDA object has inside is used as a default.
 #'
 #' @export
-trade_information <- function(oanda, trade_id, accound_id=NULL)
+trade_information <- function(oanda, trade_id, account_id=NULL)
 {
   endpoint <- sprintf("/v1/accounts/%s/trades/%s", account_id_inner(oanda, account_id), trade_id)
   request(oanda, endpoint)
@@ -51,7 +51,7 @@ trade_information <- function(oanda, trade_id, accound_id=NULL)
 #' @param trailing_stop Trailing Stop distance in pips, up to one decimal place
 #'
 #' @export
-modify_trade <- function(oanda, trade_id, stop_loss=NULL, take_profit=NULL, trailing_stop=NULL, accound_id=NULL)
+modify_trade <- function(oanda, trade_id, stop_loss=NULL, take_profit=NULL, trailing_stop=NULL, account_id=NULL)
 {
   endpoint <- sprintf("/v1/accounts/%s/trades/%s", account_id_inner(oanda, account_id), trade_id)
   body <- list(stopLoss=stop_loss, takeProfit=take_profit, trailingStop=trailing_stop)

@@ -82,6 +82,6 @@ price <- function(oanda, instruments)
 instrument_history <- function(oanda, instrument, granularity=NULL, count=NULL, start=NULL, end=NULL, candle_format=NULL, include_first=NULL, daily_alignment=NULL, alignment_timezone=NULL, weekly_alignment=NULL)
 {
   endpoint <- "/v1/candles"
-  query <- list(instrument=instrument, granularity=granularity, count=count, start=start, end=end, candle_format=NULL, includeFirst=include_first, dailyAlignment=daily_alignment, alignmentTimezone=alignment_timezone, weeklyAlignment=weekly_alignment)
+  query <- list(instrument=instrument, granularity=granularity, count=count, start=start, end=end, candle_format=candle_format, includeFirst=include_first, dailyAlignment=daily_alignment, alignmentTimezone=alignment_timezone, weeklyAlignment=weekly_alignment)
   request(oanda, endpoint, method=GET, params=list(query=query))
 }
