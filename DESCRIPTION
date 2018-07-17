@@ -1,11 +1,11 @@
 Package: ROandaAPI
 Type: Package
 Title: R wrapper for the [OANDA REST API](http://developer.oanda.com/rest-live/introduction/)
-Version: 0.1.0
+Version: 0.0.7
 Author: Who wrote it
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Description: R to Oanda Rest API
+License: MIT License
 LazyData: TRUE
 Imports:
   timeDate,
