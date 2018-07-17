@@ -44,7 +44,7 @@ create_order <- function(oanda, instrument, units, side, type, expiry=NULL, pric
                units=units,
                side=side,
                type=type,
-               expiry=expiry, price=price)
+               expiry=expiry, price=price,stopLoss=stop_loss,takeProfit=take_profit,trailingStop=trailing_stop,upperBound=upper_bound,lowerBound=lower_bound)
   request(oanda, endpoint, method=POST, params=list(body=body))
 }
 
