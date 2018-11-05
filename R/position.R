@@ -16,7 +16,9 @@ position_list <- function(oanda, instrument=NULL, account_id=NULL)
   if(!is.null(instrument)){
     endpoint <- paste0(endpoint, "/", instrument)
   }
-  request(oanda, endpoint, method=GET)
+ mydf<-request(oanda, endpoint, method=GET)
+ mydf$price<-price(oanda,mydf$instrument)
+ return(mydf)
 }
 
 #' Close an existing position
