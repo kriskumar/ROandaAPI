@@ -4,8 +4,14 @@
 \alias{modify_trade}
 \title{Modify an existing trade}
 \usage{
-modify_trade(oanda, trade_id, stop_loss = NULL, take_profit = NULL,
-  trailing_stop = NULL, accound_id = NULL)
+modify_trade(
+  oanda,
+  trade_id,
+  stop_loss = NULL,
+  take_profit = NULL,
+  trailing_stop = NULL,
+  account_id = NULL
+)
 }
 \arguments{
 \item{trailing_stop}{Trailing Stop distance in pips, up to one decimal place}

@@ -4,8 +4,14 @@
 \alias{orders}
 \title{Get orders for an account}
 \usage{
-orders(oanda, max_id = NULL, count = NULL, instrument = NULL,
-  ids = NULL, account_id = NULL)
+orders(
+  oanda,
+  max_id = NULL,
+  count = NULL,
+  instrument = NULL,
+  ids = NULL,
+  account_id = NULL
+)
 }
 \arguments{
 \item{max_id}{The server will return orders with id less than or equal to this, in descending order (for pagination).}

@@ -3,7 +3,6 @@
 \docType{package}
 \name{oandar}
 \alias{oandar}
-\alias{oandar-package}
 \title{oandar}
 \description{
 R wrapper for the OANDA REST API

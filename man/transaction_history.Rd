@@ -4,8 +4,15 @@
 \alias{transaction_history}
 \title{Get transaction history}
 \usage{
-transaction_history(oanda, max_id = NULL, min_id = NULL, count = NULL,
-  instrument = NULL, ids = NULL, account_id = NULL)
+transaction_history(
+  oanda,
+  max_id = NULL,
+  min_id = NULL,
+  count = NULL,
+  instrument = NULL,
+  ids = NULL,
+  account_id = NULL
+)
 }
 \arguments{
 \item{max_id}{The first transaction to get. The server will return transactions with id less than or equal to this, in descending order.}

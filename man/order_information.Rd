@@ -4,7 +4,7 @@
 \alias{order_information}
 \title{Get information for an order}
 \usage{
-order_information(oanda, order_id, accound_id = NULL)
+order_information(oanda, order_id, account_id = NULL)
 }
 \arguments{
 \item{order_id}{string. order ID.}

@@ -4,10 +4,21 @@
 \alias{create_order}
 \title{Create a new order}
 \usage{
-create_order(oanda, instrument, units, side, type, expiry = NULL,
-  price = NULL, lower_bound = NULL, upper_bound = NULL,
-  stop_loss = NULL, take_profit = NULL, trailing_stop = NULL,
-  accound_id = NULL)
+create_order(
+  oanda,
+  instrument,
+  units,
+  side,
+  type,
+  expiry = NULL,
+  price = NULL,
+  lower_bound = NULL,
+  upper_bound = NULL,
+  stop_loss = NULL,
+  take_profit = NULL,
+  trailing_stop = NULL,
+  account_id = NULL
+)
 }
 \arguments{
 \item{instrument}{Instrument to open the order on.}

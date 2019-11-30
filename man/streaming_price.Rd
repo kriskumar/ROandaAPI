@@ -4,8 +4,14 @@
 \alias{streaming_price}
 \title{Rates Streaming}
 \usage{
-streaming_price(oanda, instruments, call_back, ignore_heartbeat = TRUE,
-  session_id = NULL, account_id = NULL)
+streaming_price(
+  oanda,
+  instruments,
+  call_back,
+  ignore_heartbeat = TRUE,
+  session_id = NULL,
+  account_id = NULL
+)
 }
 \arguments{
 \item{call_back}{call back function which have a one argument (data.frame).}

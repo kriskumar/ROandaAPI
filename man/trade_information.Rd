@@ -4,7 +4,7 @@
 \alias{trade_information}
 \title{Get information on a specific trade}
 \usage{
-trade_information(oanda, trade_id, accound_id = NULL)
+trade_information(oanda, trade_id, account_id = NULL)
 }
 \arguments{
 \item{trade_id}{string. trade ID.}

@@ -4,8 +4,14 @@
 \alias{trade_list}
 \title{Get a list of open trades}
 \usage{
-trade_list(oanda, max_id = NULL, count = NULL, instrument = NULL,
-  ids = NULL, account_id = NULL)
+trade_list(
+  oanda,
+  max_id = NULL,
+  count = NULL,
+  instrument = NULL,
+  ids = NULL,
+  account_id = NULL
+)
 }
 \arguments{
 \item{max_id}{The server will return trades with id less than or equal to this, in descending order (for pagination).}

@@ -4,9 +4,19 @@
 \alias{modify_order}
 \title{Modify an existing order}
 \usage{
-modify_order(oanda, order_id, units = NULL, expiry = NULL, price = NULL,
-  lower_bound = NULL, upper_bound = NULL, stop_loss = NULL,
-  take_profit = NULL, trailing_stop = NULL, accound_id = NULL)
+modify_order(
+  oanda,
+  order_id,
+  units = NULL,
+  expiry = NULL,
+  price = NULL,
+  lower_bound = NULL,
+  upper_bound = NULL,
+  stop_loss = NULL,
+  take_profit = NULL,
+  trailing_stop = NULL,
+  account_id = NULL
+)
 }
 \arguments{
 \item{units}{The number of units to open order for.}
