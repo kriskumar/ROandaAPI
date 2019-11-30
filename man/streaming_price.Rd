@@ -18,7 +18,7 @@ streaming_price(
 
 \item{ignore_heartbeat}{boolean. whether ignore heart beat signal from OANDA Streaming API.}
 
-\item{instruments:}{Required An URL encoded comma (%2C) separated list of instruments to fetch prices for.}
+\item{instruments:}{Required An URL encoded comma separated list of instruments to fetch prices for.}
 
 \item{session_id:}{A unique session id used to identify the rate stream connection. The value specified must be between 1 to 12 alphanumeric characters. If a request is made with a session id that matches the session id of an existing connection, the older connection will be disconnected. Please see the best practices section for usage examples.}
 
