@@ -7,7 +7,7 @@
 #' @param max_id The server will return orders with id less than or equal to this, in descending order (for pagination).
 #' @param count Maximum number of open orders to return. Default: 50. Max value: 500.
 #' @param instrument Retrieve open orders for a specific instrument only. Default: all.
-#' @param ids An URL encoded comma (%2C) separated list of orders to retrieve. Maximum number of ids: 50.
+#' @param ids An URL encoded comma separated list of orders to retrieve. Maximum number of ids: 50.
 #'   No other parameter may be specified with the ids parameter.
 #'
 #' @export

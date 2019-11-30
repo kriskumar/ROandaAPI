@@ -9,7 +9,7 @@
 #' @param count The maximum number of transactions to return. The maximum value that can be specified is 500.
 #'   By default, if count is not specified, a maximum of 50 transactions will be fetched. Note: Transactions requests with the count parameter specified is rate limited to 1 per every 60 seconds.
 #' @param instrument Retrieve transactions for a specific instrument only. Default: all.
-#' @param ids An URL encoded comma (%2C) separated list of transaction ids to retrieve. Maximum number of ids: 50. No other parameter may be specified with the ids parameter.
+#' @param ids An URL encoded comma  separated list of transaction ids to retrieve. Maximum number of ids: 50. No other parameter may be specified with the ids parameter.
 #' @param account_id string. The account id to fetch the list of tradeable instruments for. This value will be used if it is specified.
 #'   If not specified, the value which OANDA object has inside is used as a default.
 #'

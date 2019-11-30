@@ -20,7 +20,7 @@ orders(
 
 \item{instrument}{Retrieve open orders for a specific instrument only. Default: all.}
 
-\item{ids}{An URL encoded comma (%2C) separated list of orders to retrieve. Maximum number of ids: 50.
+\item{ids}{An URL encoded comma separated list of orders to retrieve. Maximum number of ids: 50.
 No other parameter may be specified with the ids parameter.}
 }
 \description{
